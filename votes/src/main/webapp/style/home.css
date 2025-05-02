@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Navigation Menu Styles */
+nav {
+    background-color: #333;
+    color: white;
+}
+
+.welcome-section {
+    padding: 10px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Vote Section Styles */
+.vote-section {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.candidate-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.candidate-left {
+    display: flex;
+    align-items: center;
+}
+
+.candidate-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.votes-info {
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.progress-bar-fill {
+    background-color: #4CAF50;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.percentage {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/votes-1">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="voting_system" password="Saar5048?" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/voting_system?zeroDateTimeBehavior=CONVERT_TO_NULL" username="root"/>
+</Context>
