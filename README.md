@@ -44,4 +44,4 @@ A web-based voting platform for students to participate in elections securely an
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/student-voting-system.git
+https://github.com/Omphindula/voting.git
